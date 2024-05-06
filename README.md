@@ -5,7 +5,13 @@ A simple banking system
 ## Building
 Tested on Linux only
 1. Install Rust stable (https://www.rust-lang.org/tools/install)
-2. In the project root, run `cargo build --release`
+2. Run the following commands to clone and build the project:
+```bash
+git clone https://github.com/joosissimo/banking-rs
+cd banking-rs
+cargo build --release
+```
+
 
 ## Running
 All commands should be run in the project root. Data will be read from and written to `banking_system.csv` in the current working directory.
