@@ -33,3 +33,6 @@ Withdraw from account:
 Transfer from one account to another:
 
 `target/release/banking-rs transfer -f user1 -t user2 -a 10`
+
+## Testing
+Run `cargo test` to run all tests
